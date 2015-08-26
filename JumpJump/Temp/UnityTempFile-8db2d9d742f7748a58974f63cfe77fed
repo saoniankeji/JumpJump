@@ -1,0 +1,183 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'Assets/Demigiant/DOTween/DOTween43.dll'
+-r:'Assets/Demigiant/DemiLib/DemiLib.dll'
+-r:'Assets/Demigiant/DOTween/DOTween.dll'
+-r:'Assets/Demigiant/DOTweenPro/DOTweenPro.dll'
+-r:'Assets/Demigiant/DOTween/DOTween46.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
+-define:UNITY_5_1_2
+-define:UNITY_5_1
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_4_6_FEATURES
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PHYSICS_PHYSX3
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_AUDIOMIXER_SUSPEND
+-define:ENABLE_EDITOR_METRICS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_LOCALIZATION
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+'Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs'
+'Assets/Libs/MyLib/Scripts/CreateElement.cs'
+'Assets/Libs/MyLib/Scripts/DragTest.cs'
+'Assets/Libs/MyLib/Scripts/ExtendClass.cs'
+'Assets/Libs/MyLib/Scripts/GAFTest.cs'
+'Assets/Libs/MyLib/Scripts/MaterialController.cs'
+'Assets/Libs/MyLib/Scripts/RoleController.cs'
+'Assets/Libs/MyLib/Scripts/Sky/Mesh/MeshPanel.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/BaseClass/SkyAction.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/BaseClass/SkyAniCallBack.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/BaseClass/SkyAniParallel.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/BaseClass/SkyAniSequence.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/BaseClass/SkyAnimator.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/BaseClass/SkyBaseAnimationNormal.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/BaseClass/SkyBaseAnimationObject.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/BaseClass/SkyBaseSequence.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/BaseClass/SkyUtil.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/SkyAniDuration.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/SkyBezierCurve.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/SkyBezierCurveOject.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/SkyColorAnimation.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/SkyCustomParticleSystem.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/SkyDelayAnimation.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/SkyFlash.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/SkyMoveByCurve.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/SkyRestParticleSystemShape.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyAction/SkySetParticleSortingLayer.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyCustomFont/BMFont.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyCustomFont/BMFontReader.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyCustomFont/BMGlyph.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyCustomFont/BetterList.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyCustomFont/ByteReader.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyCustomFont/MyFont.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SkyGameCamera.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SrcollList/SkyElementBase.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SrcollList/SkyElementConfig.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SrcollList/SkyScrollPanel.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SrcollList/SkyScrollRect.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SrcollList/sample/ElementButton.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SrcollList/sample/ElementButtonConfig.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SrcollList/sample/ItemPlistConfig.cs'
+'Assets/Libs/MyLib/Scripts/Sky/SrcollList/sample/MyScrollPanel.cs'
+'Assets/Libs/MyLib/Scripts/Sky/UI/SkyResizeScale.cs'
+'Assets/Libs/MyLib/Scripts/Sky/UI/SpriteText/SpriteTexConfig.cs'
+'Assets/Libs/MyLib/Scripts/Sky/UI/SpriteText/SpriteTextPanel.cs'
+'Assets/Libs/MyLib/Scripts/Sky/UI/UIWindow.cs'
+'Assets/Libs/MyLib/Scripts/Sky/UI/Utils/ResizeByAuto.cs'
+'Assets/Libs/MyLib/Scripts/Sky/UI/Utils/ResizeBySetting.cs'
+'Assets/Libs/MyLib/Scripts/Sky/UI/Utils/ResizeDialog.cs'
+'Assets/Libs/MyLib/Scripts/Sky/UI/Utils/SharedPrefs.cs'
+'Assets/Libs/MyLib/Scripts/Sky/UI/Utils/SkySreenUtils.cs'
+'Assets/Libs/MyLib/Scripts/Sky/UI/Utils/SkyTime.cs'
+'Assets/Libs/MyLib/Scripts/Sky/UI/Utils/TimeRecord.cs'
+'Assets/Libs/MyLib/Scripts/SkyDragEvent.cs'
+'Assets/Libs/MyLib/Scripts/TestExtend.cs'
+'Assets/Libs/MyLib/Scripts/TestForEditor.cs'
+'Assets/Libs/MyLib/Scripts/UITest.cs'
+'Assets/MAssets/Scripts/Test/BrickManager.cs'
+'Assets/MAssets/Scripts/Test/ShpereTest.cs'
+'Assets/MAssets/Scripts/UI/MainPanel.cs'
+'Assets/MAssets/Scripts/UI/PlayPanel.cs'
+'Assets/TextMesh Pro/Examples/Scripts/Benchmark01.cs'
+'Assets/TextMesh Pro/Examples/Scripts/Benchmark01_UGUI.cs'
+'Assets/TextMesh Pro/Examples/Scripts/Benchmark02.cs'
+'Assets/TextMesh Pro/Examples/Scripts/Benchmark03.cs'
+'Assets/TextMesh Pro/Examples/Scripts/Benchmark04.cs'
+'Assets/TextMesh Pro/Examples/Scripts/CameraController.cs'
+'Assets/TextMesh Pro/Examples/Scripts/FloatingText.cs'
+'Assets/TextMesh Pro/Examples/Scripts/ObjectSpin.cs'
+'Assets/TextMesh Pro/Examples/Scripts/ShaderPropAnimator.cs'
+'Assets/TextMesh Pro/Examples/Scripts/SimpleScript.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TMP_TextInfoDebugTool.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TMP_TextSelector.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TMPro_InstructionOverlay.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TeleType.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TextConsoleSimulator.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TextMeshProFloatingText.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TextMeshPro_FrameRateCounter.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TextMeshSpawner.cs'
+'Assets/TextMesh Pro/Scripts/FastAction.cs'
+'Assets/TextMesh Pro/Scripts/InlineGraphic.cs'
+'Assets/TextMesh Pro/Scripts/InlineGraphicManager.cs'
+'Assets/TextMesh Pro/Scripts/MaterialManager.cs'
+'Assets/TextMesh Pro/Scripts/SpriteAsset.cs'
+'Assets/TextMesh Pro/Scripts/TMP_Compatibility.cs'
+'Assets/TextMesh Pro/Scripts/TMP_Settings.cs'
+'Assets/TextMesh Pro/Scripts/TMP_Style.cs'
+'Assets/TextMesh Pro/Scripts/TMP_StyleSheet.cs'
+'Assets/TextMesh Pro/Scripts/TMP_TextUtilities.cs'
+'Assets/TextMesh Pro/Scripts/TMPro_EventManager.cs'
+'Assets/TextMesh Pro/Scripts/TMPro_ExtensionMethods.cs'
+'Assets/TextMesh Pro/Scripts/TMPro_FontUtilities.cs'
+'Assets/TextMesh Pro/Scripts/TMPro_MeshUtilities.cs'
+'Assets/TextMesh Pro/Scripts/TMPro_Private.cs'
+'Assets/TextMesh Pro/Scripts/TMPro_ShaderUtilities.cs'
+'Assets/TextMesh Pro/Scripts/TMPro_SpriteUtilities.cs'
+'Assets/TextMesh Pro/Scripts/TMPro_UGUI_Private.cs'
+'Assets/TextMesh Pro/Scripts/TextContainer.cs'
+'Assets/TextMesh Pro/Scripts/TextMeshPro.cs'
+'Assets/TextMesh Pro/Scripts/TextMeshProFont.cs'
+'Assets/TextMesh Pro/Scripts/TextMeshProUGUI.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
